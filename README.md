@@ -1,18 +1,103 @@
-# React + Vite
+# Young & Hungry K-12 Podcast Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React + Vite website for the Young & Hungry K–12 Podcast. This site provides podcast episodes, research information, resources, and contact details for parents and educators learning about AI literacy.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Prerequisites
 
-## React Compiler
+Make sure you have these installed before running the project:
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+* **Node.js (LTS recommended)**
+  [https://nodejs.org/](https://nodejs.org/)
+* **npm** (comes with Node)
 
-Note: This will impact Vite dev & build performances.
+Check installation in a terminal:
 
-## Expanding the ESLint configuration
+```bash
+node -v
+npm -v
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Getting the Project
+
+Clone the repository:
+
+```bash
+git clone https://github.com/AllyBeary/young-and-hungry-podcast-website.git
+```
+
+Move into the project folder:
+
+```bash
+cd young-and-hungry-podcast-website
+```
+
+---
+
+## Install Dependencies
+
+Install all required packages:
+
+```bash
+npm install
+```
+
+This installs React, Vite, React Router, and all other dependencies listed in `package.json`.
+
+---
+
+## Run the Website (Development Mode)
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+You should see output similar to:
+
+```
+VITE vX.X.X ready in XXX ms
+Local: http://localhost:5173/
+```
+
+Open the **Local URL** in your browser.
+
+The page will automatically refresh whenever you save changes in VS Code.
+
+---
+
+## Stop the Server
+
+Press:
+
+```
+Ctrl + C
+```
+
+---
+
+## Deployment
+
+The site is configured to deploy automatically to **GitHub Pages** when changes are pushed to the `main` branch.
+
+---
+
+## Technologies Used
+
+* React
+* Vite
+* React Router
+* CSS
+
+---
+
+## Contributors
+
+Team Lead: Aakash Chaudhary
+UX Lead: Nicole Yap
+Research Lead: Elizabeth Solano
+Technology Lead: Allison Hua

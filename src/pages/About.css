@@ -1,0 +1,219 @@
+.about {
+  max-width: var(--site-width);
+  margin: 0 auto;
+  padding: 32px 18px 70px;
+  color: black;
+}
+
+/* HERO */
+.about-hero {
+  display: grid;
+  gap: 14px;
+  padding: 28px;
+  border: 1px solid #e6e6e6;
+  border-radius: 18px;
+  background: #fff;
+  text-align: center;
+}
+
+.about-logo {
+  width: 120px;
+  margin: 10px auto 0;
+  display: block;
+}
+
+.kicker {
+  margin: 0;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  color: #111;
+}
+
+.about-hero h1 {
+  margin: 0;
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+
+.lead {
+  margin: 0 auto;
+  max-width: 65ch;
+  line-height: 1.7;
+  font-size: 1.1rem;
+}
+
+/* HERO CARD */
+.hero-card {
+  margin: 10px auto 0;
+  padding: 18px;
+  border-radius: 16px;
+  border: 1px solid #e6e6e6;
+  background: #fafafa;
+  max-width: 700px;
+  text-align: center;
+}
+
+.hero-card-title {
+  margin: 0 0 10px;
+  font-size: 1.2rem;
+}
+
+.bullets {
+  margin: 0 auto;
+  padding-left: 18px;
+  max-width: 55ch;
+  text-align: left; /* bullets read better left aligned */
+  line-height: 1.7;
+}
+
+/* SECTION */
+.section {
+  margin-top: 26px;
+  padding: 28px;
+  border: 1px solid #e6e6e6;
+  border-radius: 18px;
+  background: #fff;
+  text-align: center;
+}
+
+.section-head {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 18px;
+  justify-items: center;
+}
+
+.section-head h2 {
+  margin: 0;
+  font-size: 1.9rem;
+}
+
+.section-head p {
+  margin: 0;
+  line-height: 1.7;
+  max-width: 65ch;
+}
+
+/* PURPOSE PANELS */
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+.panel {
+  border: 1px solid #e6e6e6;
+  border-radius: 16px;
+  padding: 18px;
+  background: #fafafa;
+  text-align: center;
+}
+
+.panel h3 {
+  margin: 0 0 10px;
+  font-size: 1.15rem;
+}
+
+.panel p {
+  margin: 0 auto;
+  max-width: 45ch;
+  line-height: 1.7;
+}
+
+/* CREATORS */
+.creators {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 18px;
+}
+
+.creator-card {
+  border: 1px solid #e6e6e6;
+  border-radius: 16px;
+  padding: 20px;
+  background: #fafafa;
+  text-align: center;
+}
+
+.creator-card h3 {
+  margin: 10px 0 4px;
+  font-size: 1.15rem;
+}
+
+.role {
+  margin: 0 0 10px;
+  font-weight: 800;
+  color: #333;
+}
+
+.creator-card p {
+  margin: 0 auto;
+  max-width: 40ch;
+  line-height: 1.7;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 999px;
+  background: #111;
+  margin: 0 auto;
+}
+
+.avatar.alt {
+  background: #444;
+}
+
+.avatar.alt2 {
+  background: #666;
+}
+
+/* LINK CARDS */
+.link-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.link-card {
+  border: 1px solid #e6e6e6;
+  border-radius: 16px;
+  padding: 16px;
+  text-decoration: none;
+  color: #111;
+  background: #fafafa;
+  display: grid;
+  gap: 6px;
+  text-align: center;
+}
+
+.link-card:hover {
+  background: #f2f2f2;
+}
+
+.link-title {
+  font-weight: 900;
+}
+
+.link-note {
+  color: #333;
+  line-height: 1.5;
+}
+
+/* MOBILE */
+@media (max-width: 900px) {
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .creators {
+    grid-template-columns: 1fr;
+  }
+
+  .link-grid {
+    grid-template-columns: 1fr;
+  }
+}

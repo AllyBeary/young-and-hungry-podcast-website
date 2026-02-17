@@ -1,0 +1,108 @@
+.contact {
+  max-width: var(--site-width);
+  margin: 0 auto;
+  padding: 32px 18px 70px;
+  color: #111;
+}
+
+/* HERO */
+.contact-hero {
+  text-align: center;
+  margin-bottom: 36px;
+}
+
+.contact-hero h1 {
+  font-size: 2.6rem;
+  margin-bottom: 12px;
+}
+
+.lead {
+  max-width: 65ch;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+/* GRID */
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+/* CARD */
+.contact-card {
+  border: 1px solid #e6e6e6;
+  border-radius: 18px;
+  padding: 22px;
+  background: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-card h2 {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.desc {
+  margin: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* EMAIL TEXT */
+.email {
+  font-weight: 800;
+  text-decoration: none;
+  color: #111;
+  word-break: break-word;
+}
+
+.email:hover {
+  text-decoration: underline;
+}
+
+/* BUTTON */
+.email-button {
+  margin-top: 6px;
+  padding: 10px 16px;
+  border-radius: 12px;
+  background: #111;
+  color: white;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.email-button:hover {
+  opacity: 0.9;
+}
+
+/* FOOTER */
+.contact-footer {
+  text-align: center;
+  margin-top: 42px;
+}
+
+.linktree-btn {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 12px 18px;
+  border-radius: 999px;
+  border: 1px solid #ddd;
+  text-decoration: none;
+  font-weight: 800;
+  color: #111;
+}
+
+.linktree-btn:hover {
+  background: #f3f3f3;
+}
+
+/* MOBILE */
+@media (max-width: 900px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
